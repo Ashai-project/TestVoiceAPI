@@ -1,4 +1,4 @@
-#　準備
+# 準備
 - step1
 GoogleCloudにアカウント登録
 - step2
@@ -15,17 +15,17 @@ IAMと管理->サービスアカウントから新規サービスアカウント
 
 変数名:GOOGLE_APPLICATION_CREDENTIALS
 
-#　実行方法
+# 実行方法
 動作確認:Python 3.12.3
 
 必要なライブラリのインストールをしてください
-'''
+```
 pip install {$Library}
-'''
+```
 
 入力は.wavのみステレオ音源はモノラル音源に変更してください
-'''
+```
 Python　wavefile_stereo2mono.py
-'''
+```
 
 
